@@ -1,9 +1,13 @@
 #bus-und-haltestelle
+p = 0
+i = input ("Wie viele Haltestellen gibt es? : ")
 
-f = eingabe ("Wie viele Personen sind im Bus?")
-i = input ("Bitte geben Sie die Anzahl der Personen der Haltestelle ein")
+for c in range(0, int(i)) :
 
-a = int(eingabe)
-b = int (input)
+    a = input ("Wie viele Personen steigen ein?: ")
+    b = input ("Wie viele Personen steigen aus?: ")
 
-summe = a + b
+    p = p + int(a)
+    p = p - int(b)
+
+print (p)
