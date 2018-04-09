@@ -11,3 +11,8 @@ for c in range(0, int(i)) :
     p = p - int(b)
 
 print (p)
+
+    if ( p > 60) :
+        print (" Es dürfen nicht mehr Menschen einsteigen ")
+        y = 60-p
+    else:
